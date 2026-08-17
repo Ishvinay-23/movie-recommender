@@ -147,11 +147,10 @@ curl "http://127.0.0.1:8000/recommend/1?k=10"
 
 Requesting a `user_id` with no ratings in the training data returns a `404`. Requesting an invalid `k` (e.g. zero or negative) returns a `422`.
 
-## Live demo
+## Live Demo
 
-<!-- TODO: add live Render/Railway URL here once deployed, e.g.:
-**API:** https://movie-recommender-xxxx.onrender.com/recommend/1?k=10
-**Interactive docs:** https://movie-recommender-xxxx.onrender.com/docs
+- API: https://movie-recommender-8gsr.onrender.com
+- Swagger Docs: https://movie-recommender-8gsr.onrender.com/docs
 
 Note: hosted on a free tier — the first request after a period of inactivity may take 30-60 seconds to respond while the service wakes up.
 -->
